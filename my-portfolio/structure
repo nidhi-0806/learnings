@@ -1,0 +1,32 @@
+my-portfolio/
+│── public/               # Static files
+│   ├── favicon.ico       # Favicon
+│   ├── logo.png          # Logo
+│   ├── index.html        # Main HTML file
+│── src/                  # Main source code
+│   ├── assets/           # Images, icons, and other assets
+│   │   ├── images/
+│   │   ├── icons/
+│   ├── components/       # Reusable React components
+│   │   ├── Header.js
+│   │   ├── Hero.js
+│   │   ├── Services.js
+│   │   ├── Skills.js
+│   │   ├── Experience.js
+│   │   ├── Projects.js
+│   │   ├── Contact.js
+│   │   ├── Footer.js
+│   ├── styles/           # CSS/Tailwind styles
+│   │   ├── index.css
+│   │   ├── global.css
+│   ├── pages/            # Pages (if needed)
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   ├── Projects.js
+│   ├── App.js            # Main React component
+│   ├── index.js          # Entry point
+│   ├── routes.js         # React Router (if needed)
+│── tailwind.config.js    # Tailwind configuration
+│── package.json         # Dependencies and scripts
+│── vite.config.js        # Vite configuration
+│── README.md            # Documentation
